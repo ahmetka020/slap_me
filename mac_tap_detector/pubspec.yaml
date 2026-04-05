@@ -1,0 +1,23 @@
+name: mac_tap_detector
+description: A Flutter plugin for macOS that detects physical tap/impact events on the MacBook chassis using microphone input with multi-condition impulse detection.
+version: 1.0.0
+homepage: https://github.com/ahmetka020/slap_me
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+flutter:
+  plugin:
+    platforms:
+      macos:
+        pluginClass: MacTapDetectorPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

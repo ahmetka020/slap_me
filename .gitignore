@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Claude Code local settings
+.claude/
+
+# Word documents (not needed in repo)
+*.docx
+
+# Flutter/Dart
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+pubspec.lock
+
+# CocoaPods
+**/Pods/
+**/Podfile.lock
+
+# Xcode
+**/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+**/dgph
+**/Flutter/ephemeral/
+**/*.iml
+**/.idea/
+**/.metadata
+
+# Generated
+**/GeneratedPluginRegistrant.swift
+**/.flutter-plugins-dependencies
+**/.flutter-plugins

@@ -1,0 +1,22 @@
+name: mac_tap_detector_example
+description: Example app for mac_tap_detector plugin.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mac_tap_detector:
+    path: ../
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/images/
+    - assets/images/logo.svg
